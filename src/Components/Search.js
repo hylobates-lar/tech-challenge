@@ -1,21 +1,18 @@
 import React from 'react';
+import { Input } from 'antd';
 
 const Search = (props) => {
 
 
     return(
         <div className="search-bar">
-			<h2>Search Articles</h2>
-			<form onSubmit={props.handleSubmit} className="form"> 
-                <input
-                    type="text"
-                    name="search-term"
-                    value={props.input}
-                    onChange={props.updateInput}
-                    className="input"
-                />
-				<button type="submit" id="submit-button" value="Submit">Search</button>
-			</form>
+            <Input.Search
+                placeholder="input search text"
+                value={props.input}
+                onChange={props.updateInput}
+                onSearch={props.handleSubmit}
+                style={{ width: 200 }}
+            />
 		</div>
     );
 };

@@ -26,7 +26,7 @@ function App() {
       setInput(e.target.value)
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (value, e) => {
     e.preventDefault()
     let searchTerms = input.toLowerCase().split(" ")
 
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>New York Times Science</h1>
+      <h1>New York Times Science Section</h1>
       <Search input={input} updateInput={updateInput} handleSubmit={handleSubmit}/>
       <ArticleContainer articles={filteredArticles}/>
     </div>

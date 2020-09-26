@@ -1,4 +1,15 @@
+@import '~antd/dist/antd.css';
+
 .App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 30px auto 0;
   text-align: center;
 }
 
