@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tech-challenge/static/css/main.62215959.chunk.css",
+    "main.js": "/tech-challenge/static/js/main.fad80487.chunk.js",
+    "main.js.map": "/tech-challenge/static/js/main.fad80487.chunk.js.map",
+    "runtime-main.js": "/tech-challenge/static/js/runtime-main.8d921d60.js",
+    "runtime-main.js.map": "/tech-challenge/static/js/runtime-main.8d921d60.js.map",
+    "static/css/2.cd846464.chunk.css": "/tech-challenge/static/css/2.cd846464.chunk.css",
+    "static/js/2.8056e096.chunk.js": "/tech-challenge/static/js/2.8056e096.chunk.js",
+    "static/js/2.8056e096.chunk.js.map": "/tech-challenge/static/js/2.8056e096.chunk.js.map",
+    "index.html": "/tech-challenge/index.html",
+    "precache-manifest.a59952de3e5372dbf8c5db4fb729c2f5.js": "/tech-challenge/precache-manifest.a59952de3e5372dbf8c5db4fb729c2f5.js",
+    "service-worker.js": "/tech-challenge/service-worker.js",
+    "static/css/2.cd846464.chunk.css.map": "/tech-challenge/static/css/2.cd846464.chunk.css.map",
+    "static/css/main.62215959.chunk.css.map": "/tech-challenge/static/css/main.62215959.chunk.css.map",
+    "static/js/2.8056e096.chunk.js.LICENSE.txt": "/tech-challenge/static/js/2.8056e096.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d921d60.js",
+    "static/css/2.cd846464.chunk.css",
+    "static/js/2.8056e096.chunk.js",
+    "static/css/main.62215959.chunk.css",
+    "static/js/main.fad80487.chunk.js"
+  ]
+}
